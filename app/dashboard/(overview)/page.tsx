@@ -10,12 +10,9 @@ import { RevenueChartSkeleton,
  } from '@/app/ui/skeletons';
  
 export default async function Page() {
-    const {
-        numberOfCustomers,
-        numberOfInvoices,
-        totalPaidInvoices,
-        totalPendingInvoices,
-    } = await fetchCardData();
+  
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars  
+  const { numberOfCustomers, numberOfInvoices, totalPaidInvoices, totalPendingInvoices, } = await fetchCardData();
     
   return (
     <main>
